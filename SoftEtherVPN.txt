@@ -1,0 +1,228 @@
+Control Identifiers:
+
+Dialog - 'SoftEther VPN Client Manager'    (L738, T359, R1538, B959)
+['SoftEther VPN Client Manager', 'Dialog', 'SoftEther VPN Client ManagerDialog', 'SoftEther VPN Client Manager0', 'SoftEther VPN Client Manager1']
+child_window(title="SoftEther VPN Client Manager", control_type="Window")
+   | 
+   | ListBox - ''    (L747, T422, R1529, B718)
+   | ['ListBox', 'ListBox0', 'ListBox1']
+   | child_window(auto_id="1047", control_type="List")
+   |    |
+   |    | Header - '헤더 컨트롤'    (L749, T424, R1527, B450)
+   |    | ['헤더 컨트롤', 'Header', '헤더 컨트롤Header', '헤더 컨트롤0', '헤더 컨트롤1', 'Header0', 'Header1', '헤더 컨트롤Header0', '헤더 컨트롤Header1']
+   |    | child_window(title="헤더 컨트롤", auto_id="Header", control_type="Header")
+   |    |    | 
+   |    |    | HeaderItem - 'VPN Connection Setting Name'    (L749, T424, R1015, B450)
+   |    |    | ['HeaderItem', 'VPN Connection Setting Name', 'VPN Connection Setting NameHeaderItem', 'HeaderItem0', 'HeaderItem1']
+   |    |    | child_window(title="VPN Connection Setting Name", auto_id="HeaderItem 0", control_type="HeaderItem")    
+   |    |    | 
+   |    |    | HeaderItem - 'Status'    (L1015, T424, R1115, B450)
+   |    |    | ['HeaderItem2', 'Status', 'StatusHeaderItem', 'Status0', 'Status1', 'StatusHeaderItem0', 'StatusHeaderItem1']
+   |    |    | child_window(title="Status", auto_id="HeaderItem 1", control_type="HeaderItem")
+   |    |    | 
+   |    |    | HeaderItem - 'VPN Server Hostname'    (L1115, T424, R1390, B450)
+   |    |    | ['VPN Server Hostname', 'HeaderItem3', 'VPN Server HostnameHeaderItem']
+   |    |    | child_window(title="VPN Server Hostname", auto_id="HeaderItem 2", control_type="HeaderItem")
+   |    |    |
+   |    |    | HeaderItem - 'Virtual Hub'    (L1390, T424, R1500, B450)
+   |    |    | ['Virtual HubHeaderItem', 'HeaderItem4', 'Virtual Hub']
+   |    |    | child_window(title="Virtual Hub", auto_id="HeaderItem 3", control_type="HeaderItem")
+   |    |    | 
+   |    |    | HeaderItem - 'Virtual Network Adapter Name'    (L1500, T424, R1650, B450)
+   |    |    | ['Virtual Network Adapter Name', 'Virtual Network Adapter NameHeaderItem', 'HeaderItem5', 'Virtual Network Adapter Name0', 'Virtual Network Adapter Name1', 'Virtual Network Adapter NameHeaderItem0', 'Virtual Network Adapter NameHeaderItem1']
+   |    |    | child_window(title="Virtual Network Adapter Name", auto_id="HeaderItem 4", control_type="HeaderItem")   
+   |    |
+   |    | ScrollBar - '가로'    (L749, T695, R1527, B716)
+   |    | ['ScrollBar', '가로', '가로ScrollBar', 'ScrollBar0', 'ScrollBar1', '가로0', '가로1', '가로ScrollBar0', '가로ScrollBar1']
+   |    | child_window(title="가로", auto_id="NonClientHorizontalScrollBar", control_type="ScrollBar")
+   |    |    | 
+   |    |    | Button - '왼쪽 스크롤 화살표'    (L749, T695, R770, B716)
+   |    |    | ['왼쪽 스크롤 화살표', '왼쪽 스크롤 화살표Button', 'Button', 'Button0', 'Button1', '왼쪽 스크롤 화살표0', '왼쪽 스크롤 화살표1', '왼쪽 스크롤 화살표Button0', '왼쪽 스크롤 화살표Button1']
+   |    |    | child_window(title="왼쪽 스크롤 화살표", auto_id="UpButton", control_type="Button")
+   |    |    |
+   |    |    | Thumb - '위치'    (L770, T695, R1406, B716)
+   |    |    | ['위치Thumb', '위치', 'Thumb', '위치Thumb0', '위치Thumb1', '위치0', '위치1', 'Thumb0', 'Thumb1']        
+   |    |    | child_window(title="위치", auto_id="ScrollbarThumb", control_type="Thumb")
+   |    |    |
+   |    |    | Button - '페이지 오른쪽으로'    (L1406, T695, R1506, B716)
+   |    |    | ['페이지 오른쪽으로Button', 'Button2', '페이지 오른쪽으로', '페이지 오른쪽으로Button0', '페이지 오른쪽으로Button1', '페이지 오른쪽으로0', '페이지 오른쪽으로1']
+   |    |    | child_window(title="페이지 오른쪽으로", auto_id="DownPageButton", control_type="Button")
+   |    |    | 
+   |    |    | Button - '오른쪽 스크롤 화살표'    (L1506, T695, R1527, B716)
+   |    |    | ['오른쪽 스크롤 화살표Button', '오른쪽 스크롤 화살표', 'Button3', '오른쪽 스크롤 화살표Button0', '오른쪽스크롤 화살표Button1', '오른쪽 스크롤 화살표0', '오른쪽 스크롤 화살표1']
+   |    |    | child_window(title="오른쪽 스크롤 화살표", auto_id="DownButton", control_type="Button")
+   |    |
+   |    | ListItem - 'Add VPN Connection'    (L749, T450, R1527, B474)
+   |    | ['ListItem', 'Add VPN ConnectionListItem', 'Add VPN Connection', 'ListItem0', 'ListItem1']
+   |    | child_window(title="Add VPN Connection", control_type="ListItem")
+   |    |    | 
+   |    |    | Edit - 'Add VPN Connection'    (L749, T450, R1527, B474)
+   |    |    | ['Edit', 'Edit0', 'Edit1']
+   |    |    | child_window(title="Add VPN Connection", control_type="Edit")
+   |    |    | 
+   |    |    | Static - ''    (L1015, T450, R1115, B474)
+   |    |    | ['Static', 'Static0', 'Static1']
+   |    |    |
+   |    |    | Static - ''    (L1115, T450, R1390, B474)
+   |    |    | ['Static2']
+   |    |    | 
+   |    |    | Static - ''    (L1390, T450, R1500, B474)
+   |    |    | ['Static3']
+   |    |    |
+   |    |    | Static - ''    (L1500, T450, R1527, B474)
+   |    |    | ['Static4']
+   |    | 
+   |    | ListItem - 'VPN Gate Public VPN Relay Servers'    (L749, T474, R1527, B498)
+   |    | ['VPN Gate Public VPN Relay Servers', 'ListItem2', 'VPN Gate Public VPN Relay ServersListItem']
+   |    | child_window(title="VPN Gate Public VPN Relay Servers", control_type="ListItem")
+   |    |    | 
+   |    |    | Edit - 'VPN Gate Public VPN Relay Servers'    (L749, T474, R1527, B498)
+   |    |    | ['Edit2']
+   |    |    | child_window(title="VPN Gate Public VPN Relay Servers", control_type="Edit")
+   |    |    | 
+   |    |    | Static - ''    (L1015, T474, R1115, B498)
+   |    |    | ['Static5']
+   |    |    |
+   |    |    | Static - ''    (L1115, T474, R1390, B498)
+   |    |    | ['Static6']
+   |    |    | 
+   |    |    | Static - ''    (L1390, T474, R1500, B498)
+   |    |    | ['Static7']
+   |    |    | 
+   |    |    | Static - ''    (L1500, T474, R1527, B498)
+   |    |    | ['Static8']
+   | 
+   | ListBox - ''    (L747, T721, R1529, B920)
+   | ['ListBox2', 'VPN Client Adapter - VPNListBox']
+   | child_window(auto_id="1048", control_type="List")
+   |    |
+   |    | Header - '헤더 컨트롤'    (L749, T723, R1527, B749)
+   |    | ['헤더 컨트롤2', 'Header2', '헤더 컨트롤Header2']
+   |    | child_window(title="헤더 컨트롤", auto_id="Header", control_type="Header")
+   |    |    | 
+   |    |    | HeaderItem - 'Virtual Network Adapter Name'    (L749, T723, R1134, B749)
+   |    |    | ['Virtual Network Adapter Name2', 'Virtual Network Adapter NameHeaderItem2', 'HeaderItem6']
+   |    |    | child_window(title="Virtual Network Adapter Name", auto_id="HeaderItem 0", control_type="HeaderItem")   
+   |    |    | 
+   |    |    | HeaderItem - 'Status'    (L1134, T723, R1284, B749)
+   |    |    | ['HeaderItem7', 'Status2', 'StatusHeaderItem2']
+   |    |    | child_window(title="Status", auto_id="HeaderItem 1", control_type="HeaderItem")
+   |    |    | 
+   |    |    | HeaderItem - 'MAC Address'    (L1284, T723, R1500, B749)
+   |    |    | ['MAC AddressHeaderItem', 'HeaderItem8', 'MAC Address']
+   |    |    | child_window(title="MAC Address", auto_id="HeaderItem 2", control_type="HeaderItem")
+   |    |    | 
+   |    |    | HeaderItem - 'Version'    (L1500, T723, R1650, B749)
+   |    |    | ['HeaderItem9', 'Version', 'VersionHeaderItem']
+   |    |    | child_window(title="Version", auto_id="HeaderItem 3", control_type="HeaderItem")
+   |    | 
+   |    | ScrollBar - '가로'    (L749, T897, R1527, B918)
+   |    | ['ScrollBar2', '가로2', '가로ScrollBar2']
+   |    | child_window(title="가로", auto_id="NonClientHorizontalScrollBar", control_type="ScrollBar")
+   |    |    | 
+   |    |    | Button - '왼쪽 스크롤 화살표'    (L749, T897, R770, B918)
+   |    |    | ['왼쪽 스크롤 화살표2', '왼쪽 스크롤 화살표Button2', 'Button4']
+   |    |    | child_window(title="왼쪽 스크롤 화살표", auto_id="UpButton", control_type="Button")
+   |    |    |
+   |    |    | Thumb - '위치'    (L770, T897, R1406, B918)
+   |    |    | ['위치Thumb2', '위치2', 'Thumb2']
+   |    |    | child_window(title="위치", auto_id="ScrollbarThumb", control_type="Thumb")
+   |    |    | 
+   |    |    | Button - '페이지 오른쪽으로'    (L1406, T897, R1506, B918)
+   |    |    | ['페이지 오른쪽으로Button2', 'Button5', '페이지 오른쪽으로2']
+   |    |    | child_window(title="페이지 오른쪽으로", auto_id="DownPageButton", control_type="Button")
+   |    |    |
+   |    |    | Button - '오른쪽 스크롤 화살표'    (L1506, T897, R1527, B918)
+   |    |    | ['오른쪽 스크롤 화살표Button2', '오른쪽 스크롤 화살표2', 'Button6']
+   |    |    | child_window(title="오른쪽 스크롤 화살표", auto_id="DownButton", control_type="Button")
+   |    | 
+   |    | ListItem - 'VPN Client Adapter - VPN'    (L749, T749, R1527, B773)
+   |    | ['VPN Client Adapter - VPN', 'ListItem3', 'VPN Client Adapter - VPNListItem', 'VPN Client Adapter - VPN0', 'VPN Client Adapter - VPN1']
+   |    | child_window(title="VPN Client Adapter - VPN", control_type="ListItem")
+   |    |    | 
+   |    |    | Static - 'VPN Client Adapter - VPN'    (L749, T749, R1527, B773)
+   |    |    | ['Static9', 'VPN Client Adapter - VPN2', 'VPN Client Adapter - VPNStatic']
+   |    |    | child_window(title="VPN Client Adapter - VPN", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Enabled'    (L1134, T749, R1284, B773)
+   |    |    | ['Static10', 'EnabledStatic', 'Enabled']
+   |    |    | child_window(title="Enabled", control_type="Text")
+   |    |    | 
+   |    |    | Static - '5E-86-3A-FF-2B-68'    (L1284, T749, R1500, B773)
+   |    |    | ['Static11', '5E-86-3A-FF-2B-68Static', '5E-86-3A-FF-2B-68']
+   |    |    | child_window(title="5E-86-3A-FF-2B-68", control_type="Text")
+   |    |    | 
+   |    |    | Static - '4.25.0.9658'    (L1500, T749, R1527, B773)
+   |    |    | ['Static12', '4.25.0.9658Static', '4.25.0.9658']
+   |    |    | child_window(title="4.25.0.9658", control_type="Text")
+   | 
+   | StatusBar - ''    (L747, T921, R1529, B950)
+   | ['4.25.0.9658StatusBar', 'SoftEther VPN Client ManagerStatusBar', 'StatusBar']
+   | child_window(auto_id="101", control_type="StatusBar")
+   |    | 
+   |    | Static - 'SoftEther VPN Client Manager'    (L747, T923, R998, B950)
+   |    | ['Static13', 'SoftEther VPN Client ManagerStatic', 'SoftEther VPN Client Manager2']
+   |    | child_window(title="SoftEther VPN Client Manager", control_type="Text")
+   |    | 
+   |    | Static - 'Not Connected'    (L1000, T923, R1223, B950)
+   |    | ['Static14', 'Not Connected', 'Not ConnectedStatic']
+   |    | child_window(title="Not Connected", control_type="Text")
+   |    | 
+   |    | Static - 'SoftEther VPN Client Build 9760'    (L1225, T923, R1509, B950)
+   |    | ['Static15', 'SoftEther VPN Client Build 9760Static', 'SoftEther VPN Client Build 9760']
+   |    | child_window(title="SoftEther VPN Client Build 9760", control_type="Text")
+   |
+   | TitleBar - ''    (L767, T362, R1529, B397)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - '시스템'    (L747, T368, R775, B396)
+   |    | ['시스템Menu', 'Menu', '시스템', '시스템0', '시스템1', 'Menu0', 'Menu1']
+   |    | child_window(title="시스템", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - '시스템'    (L747, T368, R775, B396)
+   |    |    | ['시스템2', '시스템MenuItem', 'MenuItem', 'MenuItem0', 'MenuItem1']
+   |    |    | child_window(title="시스템", control_type="MenuItem")
+   |    |
+   |    | Button - '최소화'    (L1351, T360, R1411, B397)
+   |    | ['최소화', '최소화Button', 'Button7']
+   |    | child_window(title="최소화", control_type="Button")
+   |    | 
+   |    | Button - '최대화'    (L1411, T360, R1470, B397)
+   |    | ['최대화', 'Button8', '최대화Button']
+   |    | child_window(title="최대화", control_type="Button")
+   |    | 
+   |    | Button - '닫기'    (L1470, T360, R1530, B397)
+   |    | ['닫기', '닫기Button', 'Button9']
+   |    | child_window(title="닫기", control_type="Button")
+   |
+   | Menu - '응용 프로그램'    (L747, T397, R1529, B421)
+   | ['응용 프로그램Menu', 'Menu2', '응용 프로그램']
+   | child_window(title="응용 프로그램", auto_id="MenuBar", control_type="MenuBar")
+   |    |
+   |    | MenuItem - 'Connect'    (L747, T397, R818, B421)
+   |    | ['ConnectMenuItem', 'MenuItem2', 'Connect']
+   |    | child_window(title="Connect", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'Edit'    (L818, T397, R858, B421)
+   |    | ['EditMenuItem', 'MenuItem3', 'Edit3']
+   |    | child_window(title="Edit", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'View'    (L858, T397, R905, B421)
+   |    | ['ViewMenuItem', 'MenuItem4', 'View']
+   |    | child_window(title="View", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'Virtual Adapter'    (L905, T397, R1023, B421)
+   |    | ['Virtual Adapter', 'Virtual AdapterMenuItem', 'MenuItem5']
+   |    | child_window(title="Virtual Adapter", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'Smart Card'    (L1023, T397, R1113, B421)
+   |    | ['Smart CardMenuItem', 'Smart Card', 'MenuItem6']
+   |    | child_window(title="Smart Card", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'Tools'    (L1113, T397, R1163, B421)
+   |    | ['Tools', 'ToolsMenuItem', 'MenuItem7']
+   |    | child_window(title="Tools", control_type="MenuItem")
+   |    |
+   |    | MenuItem - 'Help'    (L1163, T397, R1209, B421)
+   |    | ['HelpMenuItem', 'Help', 'MenuItem8']
+   |    | child_window(title="Help", control_type="MenuItem")
