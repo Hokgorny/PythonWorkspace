@@ -14,8 +14,8 @@ from twilio.rest import Client
 # 0. 기본 설정(학번 비밀번호 입력, twilio API)
 lst_time = [2, 1, 0.5, 0]
 
-account_sid = "ACa0f6ec0f8cadf1ea144cc563888989f9"
-auth_token = "d369216891d27205fd5903c26b81d5bd"
+account_sid = ""
+auth_token = ""
 
 print("로그인 정보 입력... 정확히 입력해 주세요.")
 id = input("학번 입력 : ")
@@ -24,7 +24,7 @@ print("입력 완료! 잠시후 로그인을 시도합니다.\n")
 
 try:
     client = Client(account_sid, auth_token)
-    client.messages.create(to ="+821040359590", from_ = "+16626676400", body = f"학번 {id} : 프로그램 사용")
+    client.messages.create(to ="", from_ = "", body = f"학번 {id} : 프로그램 사용")
 except:
     pass
 

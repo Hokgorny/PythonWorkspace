@@ -14,15 +14,15 @@ display = Display(visible=0, size=(1920, 1080))
 display.start()
 
 # 기본 정보
-id = ["tmdgus5791", "tmdgus57911", "123kbg"]
-pw = ["ksh6558!A12", "ksh6558!A12", "258qudrjs@"]
+id = [""]
+pw = [""]
 points = list(0 for _ in range(0, len(id)))
-account_sid = "ACa0f6ec0f8cadf1ea144cc563888989f9"
-auth_token = "d369216891d27205fd5903c26b81d5bd"
+account_sid = ""
+auth_token = ""
 
 def send_msg(): # 문자 전송 함수
     client = Client(account_sid, auth_token)
-    client.messages.create(to ="+821040359590", from_ = "+16626676400", body = f"\n출석체크 완료(적립금은 아래)\n{id[0]} : {points[0]}P\n{id[1]} : {points[1]}P\n{id[2]} : {points[2]}P")
+    client.messages.create(to ="", from_ = "", body = f"\n출석체크 완료(적립금은 아래)\n{id[0]} : {points[0]}P\n{id[1]} : {points[1]}P\n{id[2]} : {points[2]}P")
 
 def get_new_driver(): # driver 생성 함수
     options = webdriver.ChromeOptions()

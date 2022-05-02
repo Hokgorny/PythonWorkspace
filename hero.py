@@ -9,10 +9,10 @@ from selenium.webdriver.common.alert import Alert
 from selenium.webdriver.common.keys import Keys
 import pyperclip, keyboard
 
-idy = "123kbg"
-pwy = "258qudrjs@"
-idn = "123kbg"
-pwn = "rla1qud2rjs3"
+idy = ""
+pwy = ""
+idn = ""
+pwn = ""
 
 options = webdriver.ChromeOptions()
 options.add_experimental_option("excludeSwitches", ["enable-logging"])

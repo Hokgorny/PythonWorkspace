@@ -14,7 +14,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from twilio.rest import Client
 
 # 0. 기본 설정(twilio API, 상태 체크)
-client = Client("ACa0f6ec0f8cadf1ea144cc563888989f9", "d369216891d27205fd5903c26b81d5bd")
+client = Client("", "")
 curr_status = True
 def check_status(): # 현 상태 체크, 오류 발생시 프로그램 종료
     if curr_status == False:
@@ -36,7 +36,7 @@ pw = input("비밀번호 입력 : ")
 print("입력 완료! 잠시후 7시 55분 55초부터 로그인을 시도합니다.\n")
 
 try:
-    client.messages.create(to ="+821040359590", from_ = "+16626676400", body = f"학번 {id} : 프로그램 사용")
+    client.messages.create(to ="", from_ = "", body = f"학번 {id} : 프로그램 사용")
 except:
     pass
 
